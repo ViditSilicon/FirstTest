@@ -63,7 +63,7 @@ install {
                 }
                 developers {
                     developer {
-                        id 'manish-silicon'
+                        id 'ViditSilicon'
                         name 'Vidit Shah'
                         email 'vidit@siliconithub.com'
                     }
