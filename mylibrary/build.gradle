@@ -20,6 +20,11 @@ android {
         versionName version
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
+
     buildTypes {
 
     }
@@ -34,8 +39,8 @@ bintray {
     key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "MyLibrary"
-        name = "my-library"
+        repo = "gauravTestLib"
+        name = "ViditDemo"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
@@ -63,7 +68,7 @@ install {
                 }
                 developers {
                     developer {
-                        id 'ViditSilicon'
+                        id 'viditsilicon'
                         name 'Vidit Shah'
                         email 'vidit@siliconithub.com'
                     }
